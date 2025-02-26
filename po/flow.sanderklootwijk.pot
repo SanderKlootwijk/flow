@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the flow.sanderklootwijk package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: flow.sanderklootwijk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-26 19:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/Main.qml:192
+msgid "Login"
+msgstr ""
+
+#: ../qml/Main.qml:198
+msgid "Refresh"
+msgstr ""
+
+#: ../qml/Main.qml:654
+msgid "fans"
+msgstr ""
+
+#: ../qml/components/PlaylistItem.qml:90
+msgid "songs"
+msgstr ""
+
+#: ../qml/pages/AboutPage.qml:10 ../qml/pages/MainPage.qml:52
+msgid "About"
+msgstr ""
+
+#: ../qml/pages/AboutPage.qml:63 ../qml/pages/MainPage.qml:29
+#: ../qml/pages/MainPage.qml:126 ../qml/pages/PlayerPage.qml:344
+#: ../qml/pages/PlayerPage.qml:347 flow.desktop.in.h:1
+msgid "Flow"
+msgstr ""
+
+#: ../qml/pages/AboutPage.qml:68
+msgid "Version"
+msgstr ""
+
+#: ../qml/pages/AboutPage.qml:85
+msgid "Source code"
+msgstr ""
+
+#: ../qml/pages/AboutPage.qml:86
+msgid "Report issues"
+msgstr ""
+
+#: ../qml/pages/LyricsPage.qml:32
+msgid "Lyrics"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:37
+msgid "Search"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:45 ../qml/pages/SettingsPage.qml:12
+msgid "Settings"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:65
+msgid "Home"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:68 ../qml/pages/SearchPage.qml:86
+msgid "Playlists"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:138
+msgid "New releases"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:159
+msgid "Moods:"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:181
+msgid "Workout"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:191
+msgid "Party"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:201
+msgid "Chill"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:211
+msgid "Melancholy"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:221
+msgid "Love"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:231
+msgid "Focus"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:258
+msgid "Genres:"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:280
+msgid "Pop"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:290
+msgid "R&B"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:300
+msgid "Alternative"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:310
+msgid "Rock"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:320
+msgid "Dance & EDM"
+msgstr ""
+
+#: ../qml/pages/MainPage.qml:330
+msgid "Rap"
+msgstr ""
+
+#: ../qml/pages/PlayerPage.qml:34
+msgid "Now playing"
+msgstr ""
+
+#: ../qml/pages/PlayerPage.qml:44
+msgid "Favorite"
+msgstr ""
+
+#: ../qml/pages/PlayerPage.qml:57
+msgid "Full view"
+msgstr ""
+
+#: ../qml/pages/PlayerPage.qml:60
+msgid "Queue"
+msgstr ""
+
+#: ../qml/pages/PlayerPage.qml:350
+msgid "Recommended"
+msgstr ""
+
+#: ../qml/pages/PlayerPage.qml:353 ../qml/pages/PlayerPage.qml:356
+msgid "Mixes"
+msgstr ""
+
+#: ../qml/pages/SearchPage.qml:49
+msgid "Search for tracks"
+msgstr ""
+
+#: ../qml/pages/SearchPage.qml:52
+msgid "Search for albums"
+msgstr ""
+
+#: ../qml/pages/SearchPage.qml:55
+msgid "Search for playlists"
+msgstr ""
+
+#: ../qml/pages/SearchPage.qml:58
+msgid "Search for artists"
+msgstr ""
+
+#: ../qml/pages/SearchPage.qml:86
+msgid "Albums"
+msgstr ""
+
+#: ../qml/pages/SearchPage.qml:86
+msgid "Artists"
+msgstr ""
+
+#: ../qml/pages/SearchPage.qml:86
+msgid "Tracks"
+msgstr ""
+
+#: ../qml/pages/SearchPage.qml:171
+msgid "No tracks found"
+msgstr ""
+
+#: ../qml/pages/SearchPage.qml:174
+msgid "No albums found"
+msgstr ""
+
+#: ../qml/pages/SearchPage.qml:177
+msgid "No playlists found"
+msgstr ""
+
+#: ../qml/pages/SearchPage.qml:180
+msgid "No artists found"
+msgstr ""
+
+#: ../qml/pages/SettingsPage.qml:58
+msgid "Theme"
+msgstr ""
+
+#: ../qml/pages/SettingsPage.qml:81
+msgid "System"
+msgstr ""
+
+#: ../qml/pages/SettingsPage.qml:108
+msgid "Audio"
+msgstr ""
+
+#: ../qml/pages/SettingsPage.qml:135
+msgid "Volume"
+msgstr ""
+
+#: ../qml/pages/SettingsPage.qml:207
+msgid "Account"
+msgstr ""
+
+#: ../qml/pages/SettingsPage.qml:231 ../qml/pages/SettingsPage.qml:258
+#: ../qml/pages/SettingsPage.qml:262
+msgid "Log out"
+msgstr ""
+
+#: ../qml/pages/SettingsPage.qml:259
+msgid "Are you sure you want to log out?"
+msgstr ""
+
+#: ../qml/pages/SettingsPage.qml:275
+msgid "Cancel"
+msgstr ""

@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Flow
+Exec=flow %U
+Icon=assets/flow.svg
+Terminal=false
+Type=Application
+X-Lomiri-Touch=true
+X-Lomiri-Splash-Color=#111111

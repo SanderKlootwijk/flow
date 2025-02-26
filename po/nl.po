@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the flow.sanderklootwijk package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: flow.sanderklootwijk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-20 18:05+0000\n"
+"PO-Revision-Date: 2025-02-20 19:32+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: ../qml/Main.qml:192
+msgid "Login"
+msgstr "Inloggen"
+
+#: ../qml/Main.qml:198
+msgid "Refresh"
+msgstr "Herladen"
+
+#: ../qml/Main.qml:654
+msgid "fans"
+msgstr "fans"
+
+#: ../qml/components/PlaylistItem.qml:90
+msgid "songs"
+msgstr "nummers"
+
+#: ../qml/pages/AboutPage.qml:10 ../qml/pages/MainPage.qml:52
+msgid "About"
+msgstr "Over"
+
+#: ../qml/pages/AboutPage.qml:63 ../qml/pages/MainPage.qml:29
+#: ../qml/pages/MainPage.qml:126 ../qml/pages/PlayerPage.qml:344
+#: ../qml/pages/PlayerPage.qml:347 flow.desktop.in.h:1
+msgid "Flow"
+msgstr "Flow"
+
+#: ../qml/pages/AboutPage.qml:68
+msgid "Version"
+msgstr "Versie"
+
+#: ../qml/pages/AboutPage.qml:85
+msgid "Source code"
+msgstr "Broncode"
+
+#: ../qml/pages/AboutPage.qml:86
+msgid "Report issues"
+msgstr "Meld problemen"
+
+#: ../qml/pages/LyricsPage.qml:32
+msgid "Lyrics"
+msgstr "Lyrics"
+
+#: ../qml/pages/MainPage.qml:37
+msgid "Search"
+msgstr "Zoeken"
+
+#: ../qml/pages/MainPage.qml:45 ../qml/pages/SettingsPage.qml:12
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../qml/pages/MainPage.qml:65
+msgid "Home"
+msgstr "Home"
+
+#: ../qml/pages/MainPage.qml:68 ../qml/pages/SearchPage.qml:90
+msgid "Playlists"
+msgstr "Afspeellijsten"
+
+#: ../qml/pages/MainPage.qml:138
+msgid "New releases"
+msgstr "Nieuwe releases"
+
+#: ../qml/pages/MainPage.qml:159
+msgid "Moods:"
+msgstr "Moods:"
+
+#: ../qml/pages/MainPage.qml:181
+msgid "Workout"
+msgstr "Workout"
+
+#: ../qml/pages/MainPage.qml:191
+msgid "Party"
+msgstr "Party"
+
+#: ../qml/pages/MainPage.qml:201
+msgid "Chill"
+msgstr "Chill"
+
+#: ../qml/pages/MainPage.qml:211
+msgid "Melancholy"
+msgstr "Verdrietig"
+
+#: ../qml/pages/MainPage.qml:221
+msgid "Love"
+msgstr "Liefde"
+
+#: ../qml/pages/MainPage.qml:231
+msgid "Focus"
+msgstr "Focus"
+
+#: ../qml/pages/MainPage.qml:258
+msgid "Genres:"
+msgstr "Genres:"
+
+#: ../qml/pages/MainPage.qml:280
+msgid "Pop"
+msgstr "Pop"
+
+#: ../qml/pages/MainPage.qml:290
+msgid "R&B"
+msgstr "R&B"
+
+#: ../qml/pages/MainPage.qml:300
+msgid "Alternative"
+msgstr "Alternatief"
+
+#: ../qml/pages/MainPage.qml:310
+msgid "Rock"
+msgstr "Rock"
+
+#: ../qml/pages/MainPage.qml:320
+msgid "Dance & EDM"
+msgstr "Dance & EDM"
+
+#: ../qml/pages/MainPage.qml:330
+msgid "Rap"
+msgstr "Rap"
+
+#: ../qml/pages/PlayerPage.qml:34
+msgid "Now playing"
+msgstr "Nu aan het spelen"
+
+#: ../qml/pages/PlayerPage.qml:44
+msgid "Favorite"
+msgstr "Favoriet"
+
+#: ../qml/pages/PlayerPage.qml:57
+msgid "Full view"
+msgstr "Volledige weergave"
+
+#: ../qml/pages/PlayerPage.qml:60
+msgid "Queue"
+msgstr "Wachtrij"
+
+#: ../qml/pages/PlayerPage.qml:350
+msgid "Recommended"
+msgstr "Aanbevolen"
+
+#: ../qml/pages/PlayerPage.qml:353 ../qml/pages/PlayerPage.qml:356
+msgid "Mixes"
+msgstr "Mixes"
+
+#: ../qml/pages/SearchPage.qml:49
+msgid "Search for tracks"
+msgstr "Zoek naar nummers"
+
+#: ../qml/pages/SearchPage.qml:52
+msgid "Search for albums"
+msgstr "Zoek naar albums"
+
+#: ../qml/pages/SearchPage.qml:55
+msgid "Search for playlists"
+msgstr "Zoek naar afspeellijsten"
+
+#: ../qml/pages/SearchPage.qml:58
+msgid "Search for artists"
+msgstr "Zoek naar artiesten"
+
+#: ../qml/pages/SearchPage.qml:90
+msgid "Albums"
+msgstr "Albums"
+
+#: ../qml/pages/SearchPage.qml:90
+msgid "Artists"
+msgstr "Artiesten"
+
+#: ../qml/pages/SearchPage.qml:90
+msgid "Tracks"
+msgstr "Nummers"
+
+#: ../qml/pages/SearchPage.qml:173
+msgid "No tracks found"
+msgstr "Geen nummers gevonden"
+
+#: ../qml/pages/SearchPage.qml:176
+msgid "No albums found"
+msgstr "Geen albums gevonden"
+
+#: ../qml/pages/SearchPage.qml:179
+msgid "No playlists found"
+msgstr "Geen afspeellijsten gevonden"
+
+#: ../qml/pages/SearchPage.qml:182
+msgid "No artists found"
+msgstr "Geen artiesten gevonden"
+
+#: ../qml/pages/SettingsPage.qml:58
+msgid "Theme"
+msgstr "Thema"
+
+#: ../qml/pages/SettingsPage.qml:81
+msgid "System"
+msgstr "Systeem"
+
+#: ../qml/pages/SettingsPage.qml:108
+msgid "Audio"
+msgstr "Geluid"
+
+#: ../qml/pages/SettingsPage.qml:135
+msgid "Volume"
+msgstr "Volume"
+
+#: ../qml/pages/SettingsPage.qml:207
+msgid "Account"
+msgstr "Account"
+
+#: ../qml/pages/SettingsPage.qml:231 ../qml/pages/SettingsPage.qml:258
+#: ../qml/pages/SettingsPage.qml:262
+msgid "Log out"
+msgstr "Uitloggen"
+
+#: ../qml/pages/SettingsPage.qml:259
+msgid "Are you sure you want to log out?"
+msgstr "Weet je zeker dat je uit wilt loggen?"
+
+#: ../qml/pages/SettingsPage.qml:275
+msgid "Cancel"
+msgstr "Annuleren"

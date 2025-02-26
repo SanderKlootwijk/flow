@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Main.qml</file>
+        <file>components/BottomMenu.qml</file>
+        <file>components/FlowShape.qml</file>
+        <file>components/PlaylistItem.qml</file>
+        <file>components/QueueItem.qml</file>
+        <file>components/SearchResult.qml</file>
+        <file>img/chill.png</file>
+        <file>img/coverdark.jpg</file>
+        <file>img/coverlight.jpg</file>
+        <file>img/flow.svg</file>
+        <file>img/focus.png</file>
+        <file>img/genre-alternative.png</file>
+        <file>img/genre-danceedm.png</file>
+        <file>img/genre-pop.png</file>
+        <file>img/genre-rap.png</file>
+        <file>img/genre-rnb.png</file>
+        <file>img/genre-rock.png</file>
+        <file>img/lyricsdark.svg</file>
+        <file>img/lyricslight.svg</file>
+        <file>img/melancholy.png</file>
+        <file>img/motivation.png</file>
+        <file>img/newreleases.png</file>
+        <file>img/party.png</file>
+        <file>img/youandme.png</file>
+        <file>js/deezer.js</file>
+        <file>pages/AboutPage.qml</file>
+        <file>pages/LyricsPage.qml</file>
+        <file>pages/MainPage.qml</file>
+        <file>pages/PlayerPage.qml</file>
+        <file>pages/SearchPage.qml</file>
+        <file>pages/SettingsPage.qml</file>
+    </qresource>
+</RCC>

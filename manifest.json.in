@@ -1,0 +1,15 @@
+{
+    "name": "flow.sanderklootwijk",
+    "description": "Deezer client for Ubuntu Touch",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Flow",
+    "hooks": {
+        "flow": {
+            "apparmor": "flow.apparmor",
+            "desktop":  "flow.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Sander Klootwijk <sander.klootwijk@tutanota.com>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}

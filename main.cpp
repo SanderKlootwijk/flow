@@ -19,13 +19,9 @@
 #include <QUrl>
 #include <QString>
 #include <QQuickView>
-//#include <QtWebEngine>
 
 int main(int argc, char *argv[])
 {
-    // QtWebEngine::initialize();
-    // QCoreApplication::setAttribute(Qt::AA_ShareOpenGLContexts);
-
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QGuiApplication *app = new QGuiApplication(argc, (char**)argv);
     app->setApplicationName("flow.sanderklootwijk");

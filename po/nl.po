@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: flow.sanderklootwijk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-20 18:05+0000\n"
-"PO-Revision-Date: 2025-02-20 19:32+0100\n"
+"POT-Creation-Date: 2025-03-02 18:17+0000\n"
+"PO-Revision-Date: 2025-03-02 19:18+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -72,13 +72,13 @@ msgstr "Instellingen"
 msgid "Home"
 msgstr "Home"
 
-#: ../qml/pages/MainPage.qml:68 ../qml/pages/SearchPage.qml:90
+#: ../qml/pages/MainPage.qml:68 ../qml/pages/SearchPage.qml:86
 msgid "Playlists"
 msgstr "Afspeellijsten"
 
 #: ../qml/pages/MainPage.qml:138
-msgid "New releases"
-msgstr "Nieuwe releases"
+msgid "Releases"
+msgstr "Releases"
 
 #: ../qml/pages/MainPage.qml:159
 msgid "Moods:"
@@ -176,31 +176,31 @@ msgstr "Zoek naar afspeellijsten"
 msgid "Search for artists"
 msgstr "Zoek naar artiesten"
 
-#: ../qml/pages/SearchPage.qml:90
+#: ../qml/pages/SearchPage.qml:86
 msgid "Albums"
 msgstr "Albums"
 
-#: ../qml/pages/SearchPage.qml:90
+#: ../qml/pages/SearchPage.qml:86
 msgid "Artists"
 msgstr "Artiesten"
 
-#: ../qml/pages/SearchPage.qml:90
+#: ../qml/pages/SearchPage.qml:86
 msgid "Tracks"
 msgstr "Nummers"
 
-#: ../qml/pages/SearchPage.qml:173
+#: ../qml/pages/SearchPage.qml:171
 msgid "No tracks found"
 msgstr "Geen nummers gevonden"
 
-#: ../qml/pages/SearchPage.qml:176
+#: ../qml/pages/SearchPage.qml:174
 msgid "No albums found"
 msgstr "Geen albums gevonden"
 
-#: ../qml/pages/SearchPage.qml:179
+#: ../qml/pages/SearchPage.qml:177
 msgid "No playlists found"
 msgstr "Geen afspeellijsten gevonden"
 
-#: ../qml/pages/SearchPage.qml:182
+#: ../qml/pages/SearchPage.qml:180
 msgid "No artists found"
 msgstr "Geen artiesten gevonden"
 

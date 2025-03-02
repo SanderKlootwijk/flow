@@ -135,7 +135,7 @@ Page {
                     FlowShape {
                         anchors.bottom: parent.bottom
 
-                        title: i18n.tr("New releases")
+                        title: i18n.tr("Releases")
                         image: "../img/newreleases.png"
                         playColor: "#74e788"
 

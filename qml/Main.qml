@@ -559,6 +559,7 @@ MainView {
                                 "image": queueArrayResult[i].ALB_PICTURE
                             });
                         }
+                        playerPage.queueListView.maxIndex = 0;
                     } else {
                         console.log("No queue data received or invalid format.");
                     }

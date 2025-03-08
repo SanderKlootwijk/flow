@@ -22,7 +22,9 @@ ListItem {
     id: queueItem
     
     width: parent.width
-    height: units.gu(8)
+    height: visible ? units.gu(8) : 0
+
+    visible: player.playerType == "mod" || trackIndex <= queueListView.maxIndex
 
     swipeEnabled: removeAction.enabled
 

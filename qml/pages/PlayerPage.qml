@@ -469,6 +469,14 @@ Page {
         ListView {
             id: queueListView
 
+            property int maxIndex: 0
+
+            onCurrentIndexChanged: {
+                if (currentIndex > maxIndex) {
+                    maxIndex = currentIndex
+                }
+            }
+
             anchors.fill: parent
 
             clip: true

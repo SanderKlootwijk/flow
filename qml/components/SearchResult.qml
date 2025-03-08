@@ -87,7 +87,7 @@ ListItem {
 
     onClicked: {
         if (searchPage.searchSectionIndex == 0) {
-            player.play("track_mix", resultID, true, 0, "search_page", true)
+            player.play("track_mix", resultID, false, 0, "search_page", true)
         }
         else if (searchPage.searchSectionIndex == 1) {
             player.play("album", resultID, false, 0, "search_album")

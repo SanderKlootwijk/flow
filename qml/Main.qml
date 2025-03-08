@@ -572,6 +572,12 @@ MainView {
             });
         }
 
+        function removeTrackAtIndex(index) {
+            webEngineView.runJavaScript(`dzPlayer.removeTracks(${index})`);
+
+            getQueue();
+        }
+
         function getPlaylists() {
             var script = `
                 (function() {

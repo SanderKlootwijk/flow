@@ -24,6 +24,21 @@ ListItem {
     width: parent.width
     height: units.gu(8)
 
+    swipeEnabled: removeAction.enabled
+
+    leadingActions: ListItemActions {
+        actions: [
+            Action {
+                id: removeAction
+                enabled: player.playerType == "mod"
+                iconName: "delete"
+                onTriggered: {
+                    player.removeTrackAtIndex(trackIndex)
+                }
+            }
+        ]
+    }
+
     Rectangle {
         anchors.fill: parent
 

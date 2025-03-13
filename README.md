@@ -1,6 +1,14 @@
 # Flow
 
-Deezer application for Ubuntu Touch
+Unofficial Deezer client for Ubuntu Touch.
+
+Enjoy your favorite music on Ubuntu Touch with Flow! Play Deezer Flows, playlists, and search for music, artists, and albums.
+
+Flow runs a webview in the background and does not integrate with MediaHub. Loading when starting the app may take a while. To keep playback running when the app is not in focus, please disable background suspension using the UT Tweak Tool. On some devices, playback may stutter when the screen is off.
+
+Note: Flow has only been tested with a premium Deezer account.
+
+[![OpenStore](https://open-store.io/badges/en_US.png)](https://open-store.io/app/flow.sanderklootwijk)
 
 ## License
 

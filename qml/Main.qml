@@ -92,7 +92,7 @@ MainView {
         
         anchors.fill: parent
 
-        visible: !(root.url.includes("login") || root.url.includes("signup") || root.url.includes("activate"))
+        visible: player.playerLoaded
         
         primaryPage: mainPage
 
@@ -185,7 +185,7 @@ MainView {
 
         anchors.fill: parent
         
-        visible: root.url.includes("login") || root.url.includes("signup") || root.url.includes("activate")
+        visible: !player.playerLoaded
 
         header: PageHeader {
             id: loginPageHeader
@@ -196,9 +196,135 @@ MainView {
                     Action {
                         iconName: "view-refresh"
                         text: i18n.tr("Refresh")
-                        onTriggered: webEngineView.url = "https://www.deezer.com/login"
+                        onTriggered: {
+                            webEngineView.url = "https://www.deezer.com/login"
+                        }
                     }
                 ]
+            }
+        }
+
+        Rectangle {
+            z: 1
+
+            id: loginOverlay
+
+            property bool profileVisible: false
+
+            anchors {
+                fill: parent
+                topMargin: loginPageHeader.height
+            }
+
+            visible: {
+                if (!(root.url.includes("login") || root.url.includes("signup") || root.url.includes("activate")) && player.playerLoaded == false) {
+                    true
+                }
+                else {
+                    false
+                }
+            }
+
+            onVisibleChanged: {
+                loginOverlay.profileVisible = false
+                profileTimer.restart()
+                loadingLabelTimer.restart()
+                loadingLabelTimer.index = 0
+            }
+
+            color: theme.palette.normal.background
+
+            ActivityIndicator {
+                id: loginIndicator
+
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                    top: parent.top
+                    topMargin: units.gu(22)
+                }
+
+                running: true
+            }
+
+            Label {
+                id: loadingLabel
+
+                anchors {
+                    top: loginIndicator.bottom
+                    topMargin: units.gu(2)
+                    horizontalCenter: parent.horizontalCenter
+                }
+
+                Timer {
+                    id: loadingLabelTimer
+
+                    property int index: 0
+                    property var loadingMessages: [
+                        i18n.tr("Logging in..."),
+                        i18n.tr("Fetching your favorite songs..."),
+                        i18n.tr("Loading your albums..."),
+                        i18n.tr("It seems to take a while...")
+                    ]
+                    
+                    interval: 6000
+                    repeat: true
+                    onTriggered: {
+                        if (index < loadingMessages.length) {
+                            index = index + 1
+                        }
+                        else {
+                            loadingLabelTimer.running = false
+                        }
+                    }
+                }
+
+                text: loadingLabelTimer.loadingMessages[loadingLabelTimer.index]
+
+                horizontalAlignment: Text.AlignHCenter
+            }
+
+            Label {
+                visible: loginOverlay.profileVisible
+
+                anchors {
+                    top: loadingLabel.bottom
+                    topMargin: units.gu(2.5)
+                    horizontalCenter: parent.horizontalCenter
+                }
+
+                text: i18n.tr("Are you using a Family or Duo account?")
+
+                horizontalAlignment: Text.AlignHCenter
+            }
+
+            MouseArea {
+                anchors.fill: parent
+            }
+
+            Button {
+                id: profileButton
+
+                visible: loginOverlay.profileVisible
+
+                anchors {
+                    top: loginIndicator.bottom
+                    topMargin: units.gu(11)
+                    horizontalCenter: parent.horizontalCenter
+                }
+
+                text: i18n.tr("Select a profile")
+
+                onClicked: loginOverlay.visible = false
+            }
+
+            Timer {
+                id: profileTimer
+
+                interval: 21000
+                running: false
+                repeat: false
+
+                onTriggered: loginOverlay.profileVisible = true
             }
         }
 

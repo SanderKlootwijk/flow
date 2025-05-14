@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: flow.sanderklootwijk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 18:17+0000\n"
+"POT-Creation-Date: 2025-05-10 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,31 @@ msgstr ""
 msgid "Refresh"
 msgstr ""
 
-#: ../qml/Main.qml:654
+#: ../qml/Main.qml:265
+msgid "Logging in..."
+msgstr ""
+
+#: ../qml/Main.qml:266
+msgid "Fetching your favorite songs..."
+msgstr ""
+
+#: ../qml/Main.qml:267
+msgid "Loading your albums..."
+msgstr ""
+
+#: ../qml/Main.qml:268
+msgid "It seems to take a while..."
+msgstr ""
+
+#: ../qml/Main.qml:297
+msgid "Are you using a Family or Duo account?"
+msgstr ""
+
+#: ../qml/Main.qml:317
+msgid "Select a profile"
+msgstr ""
+
+#: ../qml/Main.qml:789
 msgid "fans"
 msgstr ""
 
@@ -232,6 +256,6 @@ msgstr ""
 msgid "Are you sure you want to log out?"
 msgstr ""
 
-#: ../qml/pages/SettingsPage.qml:275
+#: ../qml/pages/SettingsPage.qml:277
 msgid "Cancel"
 msgstr ""

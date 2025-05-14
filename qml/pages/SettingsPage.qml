@@ -268,6 +268,8 @@ Page {
                     webEngineView.navigationHistory.clear()
                     webEngineView.url = "https://www.deezer.com/logout.php?redirect=login"
                     webEngineView.navigationHistory.clear()
+                    player.playerLoaded = false
+                    loadingLabelTimer.index = 0
                 }
             }
 

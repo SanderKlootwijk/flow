@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: flow.sanderklootwijk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-10 14:56+0000\n"
-"PO-Revision-Date: 2025-05-14 18:57+0200\n"
+"POT-Creation-Date: 2025-06-01 13:36+0000\n"
+"PO-Revision-Date: 2025-06-01 15:54+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -18,41 +18,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.2\n"
 
-#: ../qml/Main.qml:192
+#: ../qml/Main.qml:49
+msgid "songs played on Flow today"
+msgstr "nummers afgespeeld op Flow vandaag"
+
+#: ../qml/Main.qml:50
+msgid "No songs played on Flow today"
+msgstr "Geen nummers afgespeeld vandaag op Flow"
+
+#: ../qml/Main.qml:201
 msgid "Login"
 msgstr "Inloggen"
 
-#: ../qml/Main.qml:198
+#: ../qml/Main.qml:207
 msgid "Refresh"
 msgstr "Herladen"
 
-#: ../qml/Main.qml:265
+#: ../qml/Main.qml:272
 msgid "Logging in..."
 msgstr "Inloggen..."
 
-#: ../qml/Main.qml:266
+#: ../qml/Main.qml:273
 msgid "Fetching your favorite songs..."
 msgstr "Je favoriete nummers ophalen..."
 
-#: ../qml/Main.qml:267
+#: ../qml/Main.qml:274
 msgid "Loading your albums..."
 msgstr "Je albums laden..."
 
-#: ../qml/Main.qml:268
+#: ../qml/Main.qml:275
 msgid "It seems to take a while..."
 msgstr "Het lijkt even te duren..."
 
-#: ../qml/Main.qml:297
-#, fuzzy
-#| msgid "Using a Family or Duo account?"
+#: ../qml/Main.qml:304
 msgid "Are you using a Family or Duo account?"
 msgstr "Gebruik je een Family of Duo account?"
 
-#: ../qml/Main.qml:317
+#: ../qml/Main.qml:324
 msgid "Select a profile"
 msgstr "Selecteer een profiel"
 
-#: ../qml/Main.qml:789
+#: ../qml/Main.qml:806
 msgid "fans"
 msgstr "fans"
 

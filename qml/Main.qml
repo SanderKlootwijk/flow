@@ -16,6 +16,7 @@
 
 import QtQuick 2.9
 import Lomiri.Components 1.3
+import UserMetrics 0.1
 import QtQuick.Layouts 1.3
 import Qt.labs.settings 1.0
 import QtWebEngine 1.10
@@ -40,6 +41,14 @@ MainView {
                 easing.type: Easing.OutQuad
             }
         }
+    }
+
+    Metric {
+        id: metric
+        name: "flow"
+        format: "<b>%1</b> " + i18n.tr("songs played on Flow today")
+        emptyFormat: i18n.tr("No songs played on Flow today")
+        domain: "flow.sanderklootwijk"
     }
 
     theme.name: {
@@ -379,12 +388,21 @@ MainView {
         property string albumArt
         property bool hasLyrics
         property string songId
+        property bool songCounted
 
         onSongIdChanged: {
             adaptivePageLayout.removePages(lyricsPage)
             lyricsPage.lyricsFlickable.contentY = 0
             player.getSongDetails()
             player.getQueue()
+            player.songCounted = false
+        }
+
+        onSongPositionChanged: {
+            if (player.songPosition > 10 && player.songCounted == false) {
+                player.songCounted = true
+                metric.increment()
+            }
         }
 
         // Player properties
@@ -400,6 +418,7 @@ MainView {
         property bool favorited
         property var songDuration: 0
         property var songPosition: 0
+        property bool metricCount: false
         property double playerVolume: 0
         property bool shuffle
         property int repeat

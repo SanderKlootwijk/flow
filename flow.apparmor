@@ -3,7 +3,8 @@
         "networking",
         "connectivity",
         "webview",
-        "audio"
+        "audio",
+        "usermetrics"
     ],
     "policy_version": 20.04
 }

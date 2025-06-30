@@ -80,7 +80,7 @@ MainView {
     Keys.onSpacePressed: player.togglePause()
 
     // App properties
-    property string version: "1.3.0"
+    property string version: "1.4.0"
 
     // Webview
     property string url: webEngineView.url

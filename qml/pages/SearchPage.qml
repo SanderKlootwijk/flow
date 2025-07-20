@@ -24,6 +24,7 @@ Page {
     
     property alias searchListModel: searchListModel
     property alias searchField: searchField
+    property alias searchFlickable: searchFlickable
     property int searchSectionIndex: 0
 
     header: searchPageHeader
@@ -42,7 +43,6 @@ Page {
 
             objectName: "searchField"
             
-            enabled: !root.searchLoading
             inputMethodHints: Qt.ImhNoPredictiveText
             placeholderText: {
                 if (searchSectionIndex == 0) {
@@ -58,23 +58,39 @@ Page {
                     i18n.tr("Search for artists") + "..."
                 }
             }
-            hasClearButton: false
-            
-            onAccepted: {
-                if (searchSectionIndex == 0) {
-                    searchUrl = "https://api.deezer.com/search/track?q=" + searchField.text
+            hasClearButton: true
+
+            onTextChanged: {
+                searchDelayTimer.restart()
+            }
+
+            Timer {
+                id: searchDelayTimer
+                interval: 500
+                running: false
+                repeat: false
+                onTriggered: {
+                    if (searchField.text == "") {
+                        searchField.searchExecuted = false
+                        searchListModel.clear()
+                    }
+                    else {
+                        if (searchSectionIndex == 0) {
+                            searchUrl = "https://api.deezer.com/search/track?q=" + searchField.text
+                        }
+                        else if (searchSectionIndex == 1) {
+                            searchUrl = "https://api.deezer.com/search/album?q=" + searchField.text
+                        }
+                        else if (searchSectionIndex == 2) {
+                            searchUrl = "https://api.deezer.com/search/playlist?q=" + searchField.text
+                        }
+                        else if (searchSectionIndex == 3) {
+                            searchUrl = "https://api.deezer.com/search/artist?q=" + searchField.text
+                        }
+                        getSearchResults()
+                        searchField.searchExecuted = true
+                    }
                 }
-                else if (searchSectionIndex == 1) {
-                    searchUrl = "https://api.deezer.com/search/album?q=" + searchField.text
-                }
-                else if (searchSectionIndex == 2) {
-                    searchUrl = "https://api.deezer.com/search/playlist?q=" + searchField.text
-                }
-                else if (searchSectionIndex == 3) {
-                    searchUrl = "https://api.deezer.com/search/artist?q=" + searchField.text
-                }
-                getSearchResults()
-                searchExecuted = true
             }
         }
 
@@ -105,7 +121,6 @@ Page {
                     else if (searchSectionIndex == 3) {
                         searchUrl = "https://api.deezer.com/search/artist?q=" + searchField.text
                     }
-                    searchListModel.clear()
                     getSearchResults()
                     searchField.searchExecuted = true
                 }
@@ -113,30 +128,6 @@ Page {
         }
 
         onVisibleChanged: if (visible) searchField.forceActiveFocus()
-        leadingActionBar.actions: [
-            Action {
-                iconName: "back"
-                onTriggered: {
-                    adaptivePageLayout.removePages(searchPage)
-                    searchField.text = null
-                    searchField.searchExecuted = false
-                    searchListModel.clear()
-                }
-            }
-        ]
-
-        trailingActionBar.actions: [
-            Action {
-                iconName: "find"
-                onTriggered: {
-                    if (!root.searchLoading) {
-                        searchUrl = "https://api.deezer.com/search/track?q=" + searchField.text
-                        getSearchResults()
-                        searchField.searchExecuted = true
-                    }
-                }
-            }
-        ]        
     }
 
     Scrollbar {
@@ -195,6 +186,8 @@ Page {
 
     Flickable {
         id: searchFlickable
+
+        visible: !root.searchLoading
 
         anchors {
             fill: parent

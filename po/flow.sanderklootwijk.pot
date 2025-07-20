@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: flow.sanderklootwijk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-01 13:36+0000\n"
+"POT-Creation-Date: 2025-07-20 20:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgstr ""
 msgid "Select a profile"
 msgstr ""
 
-#: ../qml/Main.qml:806
+#: ../qml/Main.qml:808
 msgid "fans"
 msgstr ""
 
@@ -103,7 +103,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: ../qml/pages/MainPage.qml:68 ../qml/pages/SearchPage.qml:86
+#: ../qml/pages/MainPage.qml:68 ../qml/pages/SearchPage.qml:102
 msgid "Playlists"
 msgstr ""
 
@@ -207,31 +207,31 @@ msgstr ""
 msgid "Search for artists"
 msgstr ""
 
-#: ../qml/pages/SearchPage.qml:86
+#: ../qml/pages/SearchPage.qml:102
 msgid "Albums"
 msgstr ""
 
-#: ../qml/pages/SearchPage.qml:86
+#: ../qml/pages/SearchPage.qml:102
 msgid "Artists"
 msgstr ""
 
-#: ../qml/pages/SearchPage.qml:86
+#: ../qml/pages/SearchPage.qml:102
 msgid "Tracks"
 msgstr ""
 
-#: ../qml/pages/SearchPage.qml:171
+#: ../qml/pages/SearchPage.qml:162
 msgid "No tracks found"
 msgstr ""
 
-#: ../qml/pages/SearchPage.qml:174
+#: ../qml/pages/SearchPage.qml:165
 msgid "No albums found"
 msgstr ""
 
-#: ../qml/pages/SearchPage.qml:177
+#: ../qml/pages/SearchPage.qml:168
 msgid "No playlists found"
 msgstr ""
 
-#: ../qml/pages/SearchPage.qml:180
+#: ../qml/pages/SearchPage.qml:171
 msgid "No artists found"
 msgstr ""
 

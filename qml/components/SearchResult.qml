@@ -55,13 +55,15 @@ ListItem {
             left: imageShape.right
             leftMargin: units.gu(1)
             right: parent.right
-            rightMargin: units.gu(2)
+            rightMargin: player.playerContextID == resultID.toString() ? units.gu(7) : units.gu(2)
             verticalCenter: imageShape.verticalCenter
         }
 
         spacing: units.gu(0.5)
 
         Label {
+            id: titleLabel
+
             width: parent.width
             
             anchors.left: parent.left
@@ -74,6 +76,8 @@ ListItem {
         }
 
         Label {
+            id: subTitleLabel
+
             width: parent.width
 
             anchors.left: parent.left
@@ -85,23 +89,71 @@ ListItem {
         }
     }
 
-    onClicked: {
-        if (searchPage.searchSectionIndex == 0) {
-            player.play("track_mix", resultID, false, 0, "search_page", true)
-        }
-        else if (searchPage.searchSectionIndex == 1) {
-            player.play("album", resultID, false, 0, "search_album")
-        }
-        else if (searchPage.searchSectionIndex == 2) {
-            player.play("playlist", resultID, false, 0, "search_playlist")
-        }
-        else if (searchPage.searchSectionIndex == 3) {
-            player.play("artist", resultID, true, 0, "search_artist")
+    Icon {
+        height: units.gu(3)
+        width: units.gu(3)
+
+        visible: {
+            if (searchPage.searchSectionIndex == 0) {
+                if (player.songId == resultID.toString() && player.playerContextID == resultID.toString()) {
+                    true
+                }
+                else {
+                    false
+                }
+            }
+            else {
+                if (player.playerContextID == resultID.toString()) {
+                    true
+                }
+                else {
+                    false
+                }
+            }
         }
 
-        adaptivePageLayout.removePages(searchPage)
-        searchField.text = null
-        searchField.searchExecuted = false
-        searchListModel.clear()
+        anchors {
+            verticalCenter: parent.verticalCenter
+            right: parent.right
+            rightMargin: units.gu(2)    
+        }
+
+        name: {
+            if (player.playerContextID == resultID.toString()) {
+                player.playingState ? "media-playback-pause" : "media-playback-start"
+            }
+            else {
+                "media-playback-start"
+            }
+        }
+        
+        color: titleLabel.color
+    }
+
+    onClicked: {
+        if (searchPage.searchSectionIndex == 0) {
+            if (player.songId == resultID.toString() && player.playerContextID == resultID.toString()) {
+                player.togglePause()
+            }
+            else {
+                player.play("track_mix", resultID, false, 0, "search_page", true)
+            }
+        }
+        else {
+            if (player.playerContextID == resultID.toString()) {
+                player.togglePause()
+            }
+            else {
+                if (searchPage.searchSectionIndex == 1) {
+                    player.play("album", resultID, false, 0, "search_album")
+                }
+                else if (searchPage.searchSectionIndex == 2) {
+                    player.play("playlist", resultID, false, 0, "search_playlist")
+                }
+                else if (searchPage.searchSectionIndex == 3) {
+                    player.play("artist", resultID, true, 0, "search_artist")
+                }
+            }
+        }
     }
 }

@@ -432,6 +432,8 @@ MainView {
             }
         }
 
+        onPlayerContextIDChanged: player.getQueue()
+
         // User information
         property bool playlistsLoaded: false
         property string userId
@@ -808,6 +810,7 @@ MainView {
                                 });
                             }
                         }
+                        searchPage.searchFlickable.contentY = 0
                         root.searchLoading = false;
                     } else {
                         console.log("HTTP:", request.status, request.statusText);

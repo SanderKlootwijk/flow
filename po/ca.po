@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: flow.sanderklootwijk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-20 20:30+0000\n"
-"PO-Revision-Date: 2026-04-09 19:19+0000\n"
+"PO-Revision-Date: 2026-04-13 10:09+0000\n"
 "Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/ubports/flow/ca/>"
 "\n"
@@ -29,7 +29,7 @@ msgstr "Avui no s'ha reproduït cap cançó a Flux"
 
 #: ../qml/Main.qml:201
 msgid "Login"
-msgstr "Inici de sessió"
+msgstr "Inicia la sessió"
 
 #: ../qml/Main.qml:207
 msgid "Refresh"

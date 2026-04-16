@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: flow.sanderklootwijk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-20 20:30+0000\n"
-"PO-Revision-Date: 2026-04-10 20:09+0000\n"
+"PO-Revision-Date: 2026-04-16 18:11+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/flow/"
 "uk/>\n"
@@ -18,81 +18,81 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: ../qml/Main.qml:49
 msgid "songs played on Flow today"
-msgstr ""
+msgstr "відтворені сьогодні пісні у Flow"
 
 #: ../qml/Main.qml:50
 msgid "No songs played on Flow today"
-msgstr ""
+msgstr "Сьогодні пісні у Flow не відтворювалися"
 
 #: ../qml/Main.qml:201
 msgid "Login"
-msgstr ""
+msgstr "Вхід"
 
 #: ../qml/Main.qml:207
 msgid "Refresh"
-msgstr ""
+msgstr "Оновити"
 
 #: ../qml/Main.qml:272
 msgid "Logging in..."
-msgstr ""
+msgstr "Входимо..."
 
 #: ../qml/Main.qml:273
 msgid "Fetching your favorite songs..."
-msgstr ""
+msgstr "Отримання улюблених пісень..."
 
 #: ../qml/Main.qml:274
 msgid "Loading your albums..."
-msgstr ""
+msgstr "Завантаження альбомів..."
 
 #: ../qml/Main.qml:275
 msgid "It seems to take a while..."
-msgstr ""
+msgstr "Схоже, трішки довше..."
 
 #: ../qml/Main.qml:304
 msgid "Are you using a Family or Duo account?"
-msgstr ""
+msgstr "Користуєтеся обліковим записом Family чи Duo?"
 
 #: ../qml/Main.qml:324
 msgid "Select a profile"
-msgstr ""
+msgstr "Оберіть профіль"
 
 #: ../qml/Main.qml:808
 msgid "fans"
-msgstr ""
+msgstr "фани"
 
 #: ../qml/components/PlaylistItem.qml:90
 msgid "songs"
-msgstr ""
+msgstr "пісні"
 
 #: ../qml/pages/AboutPage.qml:10 ../qml/pages/MainPage.qml:52
 msgid "About"
-msgstr ""
+msgstr "Інфо"
 
 #: ../qml/pages/AboutPage.qml:63 ../qml/pages/MainPage.qml:29
 #: ../qml/pages/MainPage.qml:126 ../qml/pages/PlayerPage.qml:344
 #: ../qml/pages/PlayerPage.qml:347 flow.desktop.in.h:1
 msgid "Flow"
-msgstr ""
+msgstr "Flow"
 
 #: ../qml/pages/AboutPage.qml:68
 msgid "Version"
-msgstr ""
+msgstr "Версія"
 
 #: ../qml/pages/AboutPage.qml:85
 msgid "Source code"
-msgstr ""
+msgstr "Початковий код"
 
 #: ../qml/pages/AboutPage.qml:86
 msgid "Report issues"
-msgstr ""
+msgstr "Повідомити про проблему"
 
 #: ../qml/pages/LyricsPage.qml:32
 msgid "Lyrics"
-msgstr ""
+msgstr "Тексти"
 
 #: ../qml/pages/MainPage.qml:37
 msgid "Search"
@@ -104,168 +104,168 @@ msgstr "Налаштування"
 
 #: ../qml/pages/MainPage.qml:65
 msgid "Home"
-msgstr ""
+msgstr "Домівка"
 
 #: ../qml/pages/MainPage.qml:68 ../qml/pages/SearchPage.qml:102
 msgid "Playlists"
-msgstr ""
+msgstr "Списки відтворення"
 
 #: ../qml/pages/MainPage.qml:138
 msgid "Releases"
-msgstr ""
+msgstr "Випуски"
 
 #: ../qml/pages/MainPage.qml:159
 msgid "Moods:"
-msgstr ""
+msgstr "Настрої:"
 
 #: ../qml/pages/MainPage.qml:181
 msgid "Workout"
-msgstr ""
+msgstr "Тренування"
 
 #: ../qml/pages/MainPage.qml:191
 msgid "Party"
-msgstr ""
+msgstr "Вечірка"
 
 #: ../qml/pages/MainPage.qml:201
 msgid "Chill"
-msgstr ""
+msgstr "Відпочинок"
 
 #: ../qml/pages/MainPage.qml:211
 msgid "Melancholy"
-msgstr ""
+msgstr "Меланхолія"
 
 #: ../qml/pages/MainPage.qml:221
 msgid "Love"
-msgstr ""
+msgstr "Кохання"
 
 #: ../qml/pages/MainPage.qml:231
 msgid "Focus"
-msgstr ""
+msgstr "Фокус"
 
 #: ../qml/pages/MainPage.qml:258
 msgid "Genres:"
-msgstr ""
+msgstr "Жанри:"
 
 #: ../qml/pages/MainPage.qml:280
 msgid "Pop"
-msgstr ""
+msgstr "Поп"
 
 #: ../qml/pages/MainPage.qml:290
 msgid "R&B"
-msgstr ""
+msgstr "R&B"
 
 #: ../qml/pages/MainPage.qml:300
 msgid "Alternative"
-msgstr ""
+msgstr "Альтернатива"
 
 #: ../qml/pages/MainPage.qml:310
 msgid "Rock"
-msgstr ""
+msgstr "Рок"
 
 #: ../qml/pages/MainPage.qml:320
 msgid "Dance & EDM"
-msgstr ""
+msgstr "Танці та EDM"
 
 #: ../qml/pages/MainPage.qml:330
 msgid "Rap"
-msgstr ""
+msgstr "Реп"
 
 #: ../qml/pages/PlayerPage.qml:34
 msgid "Now playing"
-msgstr ""
+msgstr "Зараз грає"
 
 #: ../qml/pages/PlayerPage.qml:44
 msgid "Favorite"
-msgstr ""
+msgstr "Улюблене"
 
 #: ../qml/pages/PlayerPage.qml:57
 msgid "Full view"
-msgstr ""
+msgstr "Повний перегляд"
 
 #: ../qml/pages/PlayerPage.qml:60
 msgid "Queue"
-msgstr ""
+msgstr "Черга"
 
 #: ../qml/pages/PlayerPage.qml:350
 msgid "Recommended"
-msgstr ""
+msgstr "Рекомендоване"
 
 #: ../qml/pages/PlayerPage.qml:353 ../qml/pages/PlayerPage.qml:356
 msgid "Mixes"
-msgstr ""
+msgstr "Мікси"
 
 #: ../qml/pages/SearchPage.qml:49
 msgid "Search for tracks"
-msgstr ""
+msgstr "Пошук треків"
 
 #: ../qml/pages/SearchPage.qml:52
 msgid "Search for albums"
-msgstr ""
+msgstr "Пошук альбомів"
 
 #: ../qml/pages/SearchPage.qml:55
 msgid "Search for playlists"
-msgstr ""
+msgstr "Пошук плейлистів"
 
 #: ../qml/pages/SearchPage.qml:58
 msgid "Search for artists"
-msgstr ""
+msgstr "Пошук виконавців"
 
 #: ../qml/pages/SearchPage.qml:102
 msgid "Albums"
-msgstr ""
+msgstr "Альбоми"
 
 #: ../qml/pages/SearchPage.qml:102
 msgid "Artists"
-msgstr ""
+msgstr "Виконавці"
 
 #: ../qml/pages/SearchPage.qml:102
 msgid "Tracks"
-msgstr ""
+msgstr "Треки"
 
 #: ../qml/pages/SearchPage.qml:162
 msgid "No tracks found"
-msgstr ""
+msgstr "Треки не знайдено"
 
 #: ../qml/pages/SearchPage.qml:165
 msgid "No albums found"
-msgstr ""
+msgstr "Альбоми не знайдено"
 
 #: ../qml/pages/SearchPage.qml:168
 msgid "No playlists found"
-msgstr ""
+msgstr "Плейлисти не знайдено"
 
 #: ../qml/pages/SearchPage.qml:171
 msgid "No artists found"
-msgstr ""
+msgstr "Виконавців не знайдено"
 
 #: ../qml/pages/SettingsPage.qml:58
 msgid "Theme"
-msgstr ""
+msgstr "Тема"
 
 #: ../qml/pages/SettingsPage.qml:81
 msgid "System"
-msgstr ""
+msgstr "Система"
 
 #: ../qml/pages/SettingsPage.qml:108
 msgid "Audio"
-msgstr ""
+msgstr "Аудіо"
 
 #: ../qml/pages/SettingsPage.qml:135
 msgid "Volume"
-msgstr ""
+msgstr "Гучність"
 
 #: ../qml/pages/SettingsPage.qml:207
 msgid "Account"
-msgstr ""
+msgstr "Обліковий запис"
 
 #: ../qml/pages/SettingsPage.qml:231 ../qml/pages/SettingsPage.qml:258
 #: ../qml/pages/SettingsPage.qml:262
 msgid "Log out"
-msgstr ""
+msgstr "Вихід"
 
 #: ../qml/pages/SettingsPage.qml:259
 msgid "Are you sure you want to log out?"
-msgstr ""
+msgstr "Ви дійсно бажаєте вийти з облікового запису?"
 
 #: ../qml/pages/SettingsPage.qml:277
 msgid "Cancel"

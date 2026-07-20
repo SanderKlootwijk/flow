@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: flow.sanderklootwijk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-20 20:30+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-07-21 19:19+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/ubports/flow/de/>"
+"\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.dev0\n"
 
 #: ../qml/Main.qml:49
 msgid "songs played on Flow today"
@@ -27,15 +29,15 @@ msgstr ""
 
 #: ../qml/Main.qml:201
 msgid "Login"
-msgstr ""
+msgstr "Anmelden"
 
 #: ../qml/Main.qml:207
 msgid "Refresh"
-msgstr ""
+msgstr "Auffrischen"
 
 #: ../qml/Main.qml:272
 msgid "Logging in..."
-msgstr ""
+msgstr "Wird angemeldet ..."
 
 #: ../qml/Main.qml:273
 msgid "Fetching your favorite songs..."
@@ -55,7 +57,7 @@ msgstr ""
 
 #: ../qml/Main.qml:324
 msgid "Select a profile"
-msgstr ""
+msgstr "Profil auswählen"
 
 #: ../qml/Main.qml:808
 msgid "fans"
@@ -67,7 +69,7 @@ msgstr ""
 
 #: ../qml/pages/AboutPage.qml:10 ../qml/pages/MainPage.qml:52
 msgid "About"
-msgstr ""
+msgstr "Über"
 
 #: ../qml/pages/AboutPage.qml:63 ../qml/pages/MainPage.qml:29
 #: ../qml/pages/MainPage.qml:126 ../qml/pages/PlayerPage.qml:344
@@ -77,15 +79,15 @@ msgstr ""
 
 #: ../qml/pages/AboutPage.qml:68
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: ../qml/pages/AboutPage.qml:85
 msgid "Source code"
-msgstr ""
+msgstr "Quellcode"
 
 #: ../qml/pages/AboutPage.qml:86
 msgid "Report issues"
-msgstr ""
+msgstr "Probleme melden"
 
 #: ../qml/pages/LyricsPage.qml:32
 msgid "Lyrics"
@@ -93,11 +95,11 @@ msgstr ""
 
 #: ../qml/pages/MainPage.qml:37
 msgid "Search"
-msgstr ""
+msgstr "Suchen"
 
 #: ../qml/pages/MainPage.qml:45 ../qml/pages/SettingsPage.qml:12
 msgid "Settings"
-msgstr ""
+msgstr "Einstellungen"
 
 #: ../qml/pages/MainPage.qml:65
 msgid "Home"
@@ -105,7 +107,7 @@ msgstr ""
 
 #: ../qml/pages/MainPage.qml:68 ../qml/pages/SearchPage.qml:102
 msgid "Playlists"
-msgstr ""
+msgstr "Wiedergabelisten"
 
 #: ../qml/pages/MainPage.qml:138
 msgid "Releases"
@@ -121,7 +123,7 @@ msgstr ""
 
 #: ../qml/pages/MainPage.qml:191
 msgid "Party"
-msgstr ""
+msgstr "Feier"
 
 #: ../qml/pages/MainPage.qml:201
 msgid "Chill"
@@ -129,15 +131,15 @@ msgstr ""
 
 #: ../qml/pages/MainPage.qml:211
 msgid "Melancholy"
-msgstr ""
+msgstr "Melancholie"
 
 #: ../qml/pages/MainPage.qml:221
 msgid "Love"
-msgstr ""
+msgstr "Liebe"
 
 #: ../qml/pages/MainPage.qml:231
 msgid "Focus"
-msgstr ""
+msgstr "Fokus"
 
 #: ../qml/pages/MainPage.qml:258
 msgid "Genres:"
@@ -145,11 +147,11 @@ msgstr ""
 
 #: ../qml/pages/MainPage.qml:280
 msgid "Pop"
-msgstr ""
+msgstr "Pop"
 
 #: ../qml/pages/MainPage.qml:290
 msgid "R&B"
-msgstr ""
+msgstr "R&B"
 
 #: ../qml/pages/MainPage.qml:300
 msgid "Alternative"
@@ -157,7 +159,7 @@ msgstr ""
 
 #: ../qml/pages/MainPage.qml:310
 msgid "Rock"
-msgstr ""
+msgstr "Rock"
 
 #: ../qml/pages/MainPage.qml:320
 msgid "Dance & EDM"
@@ -181,11 +183,11 @@ msgstr ""
 
 #: ../qml/pages/PlayerPage.qml:60
 msgid "Queue"
-msgstr ""
+msgstr "Warteschlange"
 
 #: ../qml/pages/PlayerPage.qml:350
 msgid "Recommended"
-msgstr ""
+msgstr "Empfohlen"
 
 #: ../qml/pages/PlayerPage.qml:353 ../qml/pages/PlayerPage.qml:356
 msgid "Mixes"
@@ -209,7 +211,7 @@ msgstr ""
 
 #: ../qml/pages/SearchPage.qml:102
 msgid "Albums"
-msgstr ""
+msgstr "Alben"
 
 #: ../qml/pages/SearchPage.qml:102
 msgid "Artists"
@@ -217,19 +219,19 @@ msgstr ""
 
 #: ../qml/pages/SearchPage.qml:102
 msgid "Tracks"
-msgstr ""
+msgstr "Titel"
 
 #: ../qml/pages/SearchPage.qml:162
 msgid "No tracks found"
-msgstr ""
+msgstr "Keine Titel gefunden"
 
 #: ../qml/pages/SearchPage.qml:165
 msgid "No albums found"
-msgstr ""
+msgstr "Keine Alben gefunden"
 
 #: ../qml/pages/SearchPage.qml:168
 msgid "No playlists found"
-msgstr ""
+msgstr "Keine Wiedergabelisten gefunden"
 
 #: ../qml/pages/SearchPage.qml:171
 msgid "No artists found"
@@ -241,24 +243,24 @@ msgstr ""
 
 #: ../qml/pages/SettingsPage.qml:81
 msgid "System"
-msgstr ""
+msgstr "System"
 
 #: ../qml/pages/SettingsPage.qml:108
 msgid "Audio"
-msgstr ""
+msgstr "Audio"
 
 #: ../qml/pages/SettingsPage.qml:135
 msgid "Volume"
-msgstr ""
+msgstr "Lautstärke"
 
 #: ../qml/pages/SettingsPage.qml:207
 msgid "Account"
-msgstr ""
+msgstr "Konto"
 
 #: ../qml/pages/SettingsPage.qml:231 ../qml/pages/SettingsPage.qml:258
 #: ../qml/pages/SettingsPage.qml:262
 msgid "Log out"
-msgstr ""
+msgstr "Abmelden"
 
 #: ../qml/pages/SettingsPage.qml:259
 msgid "Are you sure you want to log out?"
@@ -266,4 +268,4 @@ msgstr ""
 
 #: ../qml/pages/SettingsPage.qml:277
 msgid "Cancel"
-msgstr ""
+msgstr "Abbrechen"

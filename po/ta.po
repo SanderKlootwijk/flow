@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: flow.sanderklootwijk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-20 20:30+0000\n"
-"PO-Revision-Date: 2026-08-31 09:52+0000\n"
+"PO-Revision-Date: 2026-09-04 12:51+0000\n"
 "Last-Translator: Alagirisamy Rengaraj <radhaalagirisamy@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/ubports/flow/ta/>\n"
 "Language: ta\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9.dev0\n"
+"X-Generator: Weblate 2026.9\n"
 
 #: ../qml/Main.qml:49
 msgid "songs played on Flow today"
@@ -94,7 +94,7 @@ msgstr ""
 
 #: ../qml/pages/MainPage.qml:37
 msgid "Search"
-msgstr ""
+msgstr "தேடுதல்"
 
 #: ../qml/pages/MainPage.qml:45 ../qml/pages/SettingsPage.qml:12
 msgid "Settings"
@@ -170,100 +170,100 @@ msgstr ""
 
 #: ../qml/pages/PlayerPage.qml:34
 msgid "Now playing"
-msgstr ""
+msgstr "இப்பொழுது இசைக்கப்படுகிறது"
 
 #: ../qml/pages/PlayerPage.qml:44
 msgid "Favorite"
-msgstr ""
+msgstr "மிகவும் விரும்பியவை"
 
 #: ../qml/pages/PlayerPage.qml:57
 msgid "Full view"
-msgstr ""
+msgstr "முழு காட்சி"
 
 #: ../qml/pages/PlayerPage.qml:60
 msgid "Queue"
-msgstr ""
+msgstr "ஒன்றன்பின் ஒன்று"
 
 #: ../qml/pages/PlayerPage.qml:350
 msgid "Recommended"
-msgstr ""
+msgstr "சிபாரிசு செய்யப்பட்டது"
 
 #: ../qml/pages/PlayerPage.qml:353 ../qml/pages/PlayerPage.qml:356
 msgid "Mixes"
-msgstr ""
+msgstr "கலங்குகிறது"
 
 #: ../qml/pages/SearchPage.qml:49
 msgid "Search for tracks"
-msgstr ""
+msgstr "தடங்கள் தேடு"
 
 #: ../qml/pages/SearchPage.qml:52
 msgid "Search for albums"
-msgstr ""
+msgstr "திரட்டுக்கள் தேடு"
 
 #: ../qml/pages/SearchPage.qml:55
 msgid "Search for playlists"
-msgstr ""
+msgstr "பட்டியல்கள் தேடு"
 
 #: ../qml/pages/SearchPage.qml:58
 msgid "Search for artists"
-msgstr ""
+msgstr "கலைஞர்கள் தேடு"
 
 #: ../qml/pages/SearchPage.qml:102
 msgid "Albums"
-msgstr ""
+msgstr "திரட்டுக்கள்"
 
 #: ../qml/pages/SearchPage.qml:102
 msgid "Artists"
-msgstr ""
+msgstr "கலைஞர்கள்"
 
 #: ../qml/pages/SearchPage.qml:102
 msgid "Tracks"
-msgstr ""
+msgstr "தடங்கள்"
 
 #: ../qml/pages/SearchPage.qml:162
 msgid "No tracks found"
-msgstr ""
+msgstr "தடங்கள் ஏதும் காணப்படவில்லை"
 
 #: ../qml/pages/SearchPage.qml:165
 msgid "No albums found"
-msgstr ""
+msgstr "திரட்டுக்கள் ஏதும் காணப்படவில்லை"
 
 #: ../qml/pages/SearchPage.qml:168
 msgid "No playlists found"
-msgstr ""
+msgstr "பட்டியல்கள் ஏதும் காணப்படவில்லை"
 
 #: ../qml/pages/SearchPage.qml:171
 msgid "No artists found"
-msgstr ""
+msgstr "கலைஞர்கள் யாரும் காணப்படவில்லை"
 
 #: ../qml/pages/SettingsPage.qml:58
 msgid "Theme"
-msgstr ""
+msgstr "கருப்பொருள்"
 
 #: ../qml/pages/SettingsPage.qml:81
 msgid "System"
-msgstr ""
+msgstr "கணினி"
 
 #: ../qml/pages/SettingsPage.qml:108
 msgid "Audio"
-msgstr ""
+msgstr "ஒலி"
 
 #: ../qml/pages/SettingsPage.qml:135
 msgid "Volume"
-msgstr ""
+msgstr "ஒலி அளவு"
 
 #: ../qml/pages/SettingsPage.qml:207
 msgid "Account"
-msgstr ""
+msgstr "கணக்கு"
 
 #: ../qml/pages/SettingsPage.qml:231 ../qml/pages/SettingsPage.qml:258
 #: ../qml/pages/SettingsPage.qml:262
 msgid "Log out"
-msgstr ""
+msgstr "பதிவிலிருந்து வெளியேறு"
 
 #: ../qml/pages/SettingsPage.qml:259
 msgid "Are you sure you want to log out?"
-msgstr ""
+msgstr "பதிவிலிருந்து வெளியேறுவதில் நீங்கள்உறுதியாக உள்ளீர்களா?"
 
 #: ../qml/pages/SettingsPage.qml:277
 msgid "Cancel"

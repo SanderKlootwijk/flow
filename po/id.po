@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: flow.sanderklootwijk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-20 20:30+0000\n"
-"PO-Revision-Date: 2026-09-17 22:15+0000\n"
+"PO-Revision-Date: 2026-09-18 22:51+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/ubports/flow/"
 "id/>\n"
@@ -21,51 +21,51 @@ msgstr ""
 
 #: ../qml/Main.qml:49
 msgid "songs played on Flow today"
-msgstr ""
+msgstr "lagu yang diputar di Flow hari ini"
 
 #: ../qml/Main.qml:50
 msgid "No songs played on Flow today"
-msgstr ""
+msgstr "Tidak ada lagu yang diputar di Flow hari ini"
 
 #: ../qml/Main.qml:201
 msgid "Login"
-msgstr "Login"
+msgstr "Masuk"
 
 #: ../qml/Main.qml:207
 msgid "Refresh"
-msgstr "Segarkan"
+msgstr "Muat ulang"
 
 #: ../qml/Main.qml:272
 msgid "Logging in..."
-msgstr ""
+msgstr "Sedang masuk..."
 
 #: ../qml/Main.qml:273
 msgid "Fetching your favorite songs..."
-msgstr ""
+msgstr "Mengambil lagu favorit Anda..."
 
 #: ../qml/Main.qml:274
 msgid "Loading your albums..."
-msgstr ""
+msgstr "Memuat album Anda..."
 
 #: ../qml/Main.qml:275
 msgid "It seems to take a while..."
-msgstr ""
+msgstr "Tampaknya membutuhkan waktu cukup lama..."
 
 #: ../qml/Main.qml:304
 msgid "Are you using a Family or Duo account?"
-msgstr ""
+msgstr "Apakah Anda menggunakan akun Family atau Duo?"
 
 #: ../qml/Main.qml:324
 msgid "Select a profile"
-msgstr ""
+msgstr "Pilih profil"
 
 #: ../qml/Main.qml:808
 msgid "fans"
-msgstr ""
+msgstr "penggemar"
 
 #: ../qml/components/PlaylistItem.qml:90
 msgid "songs"
-msgstr ""
+msgstr "lagu"
 
 #: ../qml/pages/AboutPage.qml:10 ../qml/pages/MainPage.qml:52
 msgid "About"
@@ -75,7 +75,7 @@ msgstr "Tentang"
 #: ../qml/pages/MainPage.qml:126 ../qml/pages/PlayerPage.qml:344
 #: ../qml/pages/PlayerPage.qml:347 flow.desktop.in.h:1
 msgid "Flow"
-msgstr ""
+msgstr "Flow"
 
 #: ../qml/pages/AboutPage.qml:68
 msgid "Version"
@@ -91,7 +91,7 @@ msgstr "Laporkan masalah"
 
 #: ../qml/pages/LyricsPage.qml:32
 msgid "Lyrics"
-msgstr ""
+msgstr "Lirik"
 
 #: ../qml/pages/MainPage.qml:37
 msgid "Search"
@@ -103,75 +103,75 @@ msgstr "Pengaturan"
 
 #: ../qml/pages/MainPage.qml:65
 msgid "Home"
-msgstr ""
+msgstr "Beranda"
 
 #: ../qml/pages/MainPage.qml:68 ../qml/pages/SearchPage.qml:102
 msgid "Playlists"
-msgstr ""
+msgstr "Daftar putar"
 
 #: ../qml/pages/MainPage.qml:138
 msgid "Releases"
-msgstr ""
+msgstr "Rilis"
 
 #: ../qml/pages/MainPage.qml:159
 msgid "Moods:"
-msgstr ""
+msgstr "Suasana:"
 
 #: ../qml/pages/MainPage.qml:181
 msgid "Workout"
-msgstr ""
+msgstr "Olahraga"
 
 #: ../qml/pages/MainPage.qml:191
 msgid "Party"
-msgstr ""
+msgstr "Pesta"
 
 #: ../qml/pages/MainPage.qml:201
 msgid "Chill"
-msgstr ""
+msgstr "Santai"
 
 #: ../qml/pages/MainPage.qml:211
 msgid "Melancholy"
-msgstr ""
+msgstr "Melankolis"
 
 #: ../qml/pages/MainPage.qml:221
 msgid "Love"
-msgstr ""
+msgstr "Cinta"
 
 #: ../qml/pages/MainPage.qml:231
 msgid "Focus"
-msgstr ""
+msgstr "Fokus"
 
 #: ../qml/pages/MainPage.qml:258
 msgid "Genres:"
-msgstr ""
+msgstr "Genre:"
 
 #: ../qml/pages/MainPage.qml:280
 msgid "Pop"
-msgstr ""
+msgstr "Pop"
 
 #: ../qml/pages/MainPage.qml:290
 msgid "R&B"
-msgstr ""
+msgstr "R&B"
 
 #: ../qml/pages/MainPage.qml:300
 msgid "Alternative"
-msgstr ""
+msgstr "Alternatif"
 
 #: ../qml/pages/MainPage.qml:310
 msgid "Rock"
-msgstr ""
+msgstr "Rock"
 
 #: ../qml/pages/MainPage.qml:320
 msgid "Dance & EDM"
-msgstr ""
+msgstr "Dance & EDM"
 
 #: ../qml/pages/MainPage.qml:330
 msgid "Rap"
-msgstr ""
+msgstr "Rap"
 
 #: ../qml/pages/PlayerPage.qml:34
 msgid "Now playing"
-msgstr ""
+msgstr "Sedang diputar"
 
 #: ../qml/pages/PlayerPage.qml:44
 msgid "Favorite"
@@ -187,27 +187,27 @@ msgstr "Antrean"
 
 #: ../qml/pages/PlayerPage.qml:350
 msgid "Recommended"
-msgstr ""
+msgstr "Direkomendasikan"
 
 #: ../qml/pages/PlayerPage.qml:353 ../qml/pages/PlayerPage.qml:356
 msgid "Mixes"
-msgstr ""
+msgstr "Mix"
 
 #: ../qml/pages/SearchPage.qml:49
 msgid "Search for tracks"
-msgstr ""
+msgstr "Cari trek"
 
 #: ../qml/pages/SearchPage.qml:52
 msgid "Search for albums"
-msgstr ""
+msgstr "Cari album"
 
 #: ../qml/pages/SearchPage.qml:55
 msgid "Search for playlists"
-msgstr ""
+msgstr "Cari daftar putar"
 
 #: ../qml/pages/SearchPage.qml:58
 msgid "Search for artists"
-msgstr ""
+msgstr "Cari artis"
 
 #: ../qml/pages/SearchPage.qml:102
 msgid "Albums"
@@ -215,27 +215,27 @@ msgstr "Album"
 
 #: ../qml/pages/SearchPage.qml:102
 msgid "Artists"
-msgstr ""
+msgstr "Artis"
 
 #: ../qml/pages/SearchPage.qml:102
 msgid "Tracks"
-msgstr ""
+msgstr "Trek"
 
 #: ../qml/pages/SearchPage.qml:162
 msgid "No tracks found"
-msgstr ""
+msgstr "Tidak ada trek yang ditemukan"
 
 #: ../qml/pages/SearchPage.qml:165
 msgid "No albums found"
-msgstr ""
+msgstr "Tidak ada album yang ditemukan"
 
 #: ../qml/pages/SearchPage.qml:168
 msgid "No playlists found"
-msgstr ""
+msgstr "Tidak ada daftar putar yang ditemukan"
 
 #: ../qml/pages/SearchPage.qml:171
 msgid "No artists found"
-msgstr ""
+msgstr "Tidak ada artis yang ditemukan"
 
 #: ../qml/pages/SettingsPage.qml:58
 msgid "Theme"
@@ -251,7 +251,7 @@ msgstr "Audio"
 
 #: ../qml/pages/SettingsPage.qml:135
 msgid "Volume"
-msgstr ""
+msgstr "Volume"
 
 #: ../qml/pages/SettingsPage.qml:207
 msgid "Account"
@@ -260,11 +260,11 @@ msgstr "Akun"
 #: ../qml/pages/SettingsPage.qml:231 ../qml/pages/SettingsPage.qml:258
 #: ../qml/pages/SettingsPage.qml:262
 msgid "Log out"
-msgstr ""
+msgstr "Keluar"
 
 #: ../qml/pages/SettingsPage.qml:259
 msgid "Are you sure you want to log out?"
-msgstr ""
+msgstr "Apakah Anda yakin ingin keluar?"
 
 #: ../qml/pages/SettingsPage.qml:277
 msgid "Cancel"

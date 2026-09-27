@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: flow.sanderklootwijk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-20 20:30+0000\n"
-"PO-Revision-Date: 2026-09-26 10:51+0000\n"
+"PO-Revision-Date: 2026-09-28 13:51+0000\n"
 "Last-Translator: Alagirisamy Rengaraj <radhaalagirisamy@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/ubports/flow/ta/>\n"
 "Language: ta\n"
@@ -267,4 +267,4 @@ msgstr "பதிவிலிருந்து வெளியேறுவத�
 
 #: ../qml/pages/SettingsPage.qml:277
 msgid "Cancel"
-msgstr "செயல் தவிர்"
+msgstr "தவிர்"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: flow.sanderklootwijk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-20 20:30+0000\n"
-"PO-Revision-Date: 2026-09-28 13:51+0000\n"
+"PO-Revision-Date: 2026-10-08 01:21+0000\n"
 "Last-Translator: Alagirisamy Rengaraj <radhaalagirisamy@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/ubports/flow/ta/>\n"
 "Language: ta\n"
@@ -16,15 +16,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.dev0\n"
+"X-Generator: Weblate 2026.10.1.dev0\n"
 
 #: ../qml/Main.qml:49
 msgid "songs played on Flow today"
-msgstr ""
+msgstr "இன்று ஓட்டத்தில் இசைக்கப்பட்ட பாடல்கள்"
 
 #: ../qml/Main.qml:50
 msgid "No songs played on Flow today"
-msgstr ""
+msgstr "இன்று ஓட்டத்தில் பாடல்கள் எதுவும் இசைக்கப்படவில்லை"
 
 #: ../qml/Main.qml:201
 msgid "Login"
@@ -32,39 +32,39 @@ msgstr "உள்நுழை"
 
 #: ../qml/Main.qml:207
 msgid "Refresh"
-msgstr ""
+msgstr "புத்துணர்ச்சி ஊட்டு"
 
 #: ../qml/Main.qml:272
 msgid "Logging in..."
-msgstr ""
+msgstr "உள்நுழைகிறது..."
 
 #: ../qml/Main.qml:273
 msgid "Fetching your favorite songs..."
-msgstr ""
+msgstr "உங்களது விருப்பமான பாடல்களை கொண்டுவருகிறது..."
 
 #: ../qml/Main.qml:274
 msgid "Loading your albums..."
-msgstr ""
+msgstr "உங்களது தொகுப்பை ஏற்றுகிறது..."
 
 #: ../qml/Main.qml:275
 msgid "It seems to take a while..."
-msgstr ""
+msgstr "அதற்கு சிறிது நேரம் எடுக்கும் என தோன்றுகிறது..."
 
 #: ../qml/Main.qml:304
 msgid "Are you using a Family or Duo account?"
-msgstr ""
+msgstr "நீங்கள் குடும்ப கணக்கு அல்லது இருவர் கணக்கு பயன்படுத்துகிறீர்களா?"
 
 #: ../qml/Main.qml:324
 msgid "Select a profile"
-msgstr ""
+msgstr "ஒரு சுயவிவரம் தேர்ந்தெடுக்கவும்"
 
 #: ../qml/Main.qml:808
 msgid "fans"
-msgstr ""
+msgstr "விசிறிகள்/இரசிகர்கள்"
 
 #: ../qml/components/PlaylistItem.qml:90
 msgid "songs"
-msgstr ""
+msgstr "பாடல்கள்"
 
 #: ../qml/pages/AboutPage.qml:10 ../qml/pages/MainPage.qml:52
 msgid "About"
@@ -74,7 +74,7 @@ msgstr "பற்றி"
 #: ../qml/pages/MainPage.qml:126 ../qml/pages/PlayerPage.qml:344
 #: ../qml/pages/PlayerPage.qml:347 flow.desktop.in.h:1
 msgid "Flow"
-msgstr ""
+msgstr "ஓட்டம்"
 
 #: ../qml/pages/AboutPage.qml:68
 msgid "Version"
@@ -90,7 +90,7 @@ msgstr "சிக்கல்களைப் புகாரளிக்கவ�
 
 #: ../qml/pages/LyricsPage.qml:32
 msgid "Lyrics"
-msgstr ""
+msgstr "பாடல் வரிகள்"
 
 #: ../qml/pages/MainPage.qml:37
 msgid "Search"
@@ -106,67 +106,67 @@ msgstr "முகப்பு"
 
 #: ../qml/pages/MainPage.qml:68 ../qml/pages/SearchPage.qml:102
 msgid "Playlists"
-msgstr ""
+msgstr "இசைப்பட்டியல்"
 
 #: ../qml/pages/MainPage.qml:138
 msgid "Releases"
-msgstr ""
+msgstr "வெளியீடுகள்"
 
 #: ../qml/pages/MainPage.qml:159
 msgid "Moods:"
-msgstr ""
+msgstr "மனநிலைகள்:"
 
 #: ../qml/pages/MainPage.qml:181
 msgid "Workout"
-msgstr ""
+msgstr "உடற்பயிற்சி"
 
 #: ../qml/pages/MainPage.qml:191
 msgid "Party"
-msgstr ""
+msgstr "விருந்து"
 
 #: ../qml/pages/MainPage.qml:201
 msgid "Chill"
-msgstr ""
+msgstr "குளிர்ச்சி"
 
 #: ../qml/pages/MainPage.qml:211
 msgid "Melancholy"
-msgstr ""
+msgstr "மனச்சோர்வு"
 
 #: ../qml/pages/MainPage.qml:221
 msgid "Love"
-msgstr ""
+msgstr "அன்பு"
 
 #: ../qml/pages/MainPage.qml:231
 msgid "Focus"
-msgstr ""
+msgstr "ஒருமுகப்படுத்தல்"
 
 #: ../qml/pages/MainPage.qml:258
 msgid "Genres:"
-msgstr ""
+msgstr "வகைகள்:"
 
 #: ../qml/pages/MainPage.qml:280
 msgid "Pop"
-msgstr ""
+msgstr "பாப்"
 
 #: ../qml/pages/MainPage.qml:290
 msgid "R&B"
-msgstr ""
+msgstr "தாளம் மற்றும் நீலம் இசை"
 
 #: ../qml/pages/MainPage.qml:300
 msgid "Alternative"
-msgstr ""
+msgstr "மாற்று"
 
 #: ../qml/pages/MainPage.qml:310
 msgid "Rock"
-msgstr ""
+msgstr "ராக் இசை"
 
 #: ../qml/pages/MainPage.qml:320
 msgid "Dance & EDM"
-msgstr ""
+msgstr "நடனம் மற்றும் மின்னனு நடன இசை"
 
 #: ../qml/pages/MainPage.qml:330
 msgid "Rap"
-msgstr ""
+msgstr "ராப் இசை"
 
 #: ../qml/pages/PlayerPage.qml:34
 msgid "Now playing"
@@ -174,15 +174,15 @@ msgstr "இப்பொழுது இசைக்கப்படுகிற�
 
 #: ../qml/pages/PlayerPage.qml:44
 msgid "Favorite"
-msgstr "மிகவும் விரும்பியவை"
+msgstr "விரும்பியவை"
 
 #: ../qml/pages/PlayerPage.qml:57
 msgid "Full view"
-msgstr "முழு காட்சி"
+msgstr "முழுக் காட்சி"
 
 #: ../qml/pages/PlayerPage.qml:60
 msgid "Queue"
-msgstr "ஒன்றன்பின் ஒன்று"
+msgstr "ஒன்றன் பின் ஒன்று"
 
 #: ../qml/pages/PlayerPage.qml:350
 msgid "Recommended"
@@ -190,23 +190,23 @@ msgstr "சிபாரிசு செய்யப்பட்டது"
 
 #: ../qml/pages/PlayerPage.qml:353 ../qml/pages/PlayerPage.qml:356
 msgid "Mixes"
-msgstr "கலங்குகிறது"
+msgstr "கலக்கிறது"
 
 #: ../qml/pages/SearchPage.qml:49
 msgid "Search for tracks"
-msgstr "தடங்கள் தேடு"
+msgstr "தடங்கள் தேடுதல்"
 
 #: ../qml/pages/SearchPage.qml:52
 msgid "Search for albums"
-msgstr "திரட்டுக்கள் தேடு"
+msgstr "திரட்டுக்கள் தேடுதல்"
 
 #: ../qml/pages/SearchPage.qml:55
 msgid "Search for playlists"
-msgstr "பட்டியல்கள் தேடு"
+msgstr "பட்டியல்கள் தேடுதல்"
 
 #: ../qml/pages/SearchPage.qml:58
 msgid "Search for artists"
-msgstr "கலைஞர்கள் தேடு"
+msgstr "கலைஞர்கள் தேடுதல்"
 
 #: ../qml/pages/SearchPage.qml:102
 msgid "Albums"
@@ -259,11 +259,11 @@ msgstr "கணக்கு"
 #: ../qml/pages/SettingsPage.qml:231 ../qml/pages/SettingsPage.qml:258
 #: ../qml/pages/SettingsPage.qml:262
 msgid "Log out"
-msgstr "பதிவிலிருந்து வெளியேறு"
+msgstr "கணினியில் இருந்து வெளியேறு"
 
 #: ../qml/pages/SettingsPage.qml:259
 msgid "Are you sure you want to log out?"
-msgstr "பதிவிலிருந்து வெளியேறுவதில் நீங்கள்உறுதியாக உள்ளீர்களா?"
+msgstr "வெளியேறுவதில் நீங்கள்உறுதியாக உள்ளீர்களா?"
 
 #: ../qml/pages/SettingsPage.qml:277
 msgid "Cancel"
